@@ -14,6 +14,7 @@ import Update from "./Update";
 import Contents from "./Context2";
 import Newreducer from "./Newreducer";
 import Context from "./Context";
+import Demo from "./Demo"
 import"./App.css"
 
 
@@ -45,6 +46,8 @@ function App() {
     <li><Link to ='/newreducer'>Newreducer</Link></li> 
     <li><Link to ='/usecontext'>usecontext</Link></li> 
     <li><Link to ='/Context'>CContexts</Link></li> 
+    <li><Link to ='/demo'>Demo</Link></li> 
+
 
 
 
@@ -78,6 +81,8 @@ function App() {
     <Route path="/newreducer" element={<Newreducer/>} />
     {/* <Route path="/usecontext" element={<Usecontext/>} /> */}
     <Route path="/Context" element={<Context/>} />
+    <Route path="/demo" element={<Demo/>} />
+
 
 
 

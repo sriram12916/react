@@ -6,6 +6,7 @@ const Content = () => {
 const[input,setInput] = useState("")
 const[pass,setPass] = useState("")
 const[type,setType] = useState(false)
+
 const[result,setResult] = useState([])
 const[id,setId] = useState(null)
 
@@ -62,6 +63,7 @@ const handleUpdate = (name) =>{
     value={pass}
     onChange={(e)=>setPass(e.target.value)}
     />
+   
     <button onClick={handlesubmit}>submit</button>
 {type&&
 <table>
